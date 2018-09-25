@@ -15,6 +15,6 @@ The app should run
 
 ### Actual
 
-There's a runtime error: `lowed source of script in the following Content Security Policy directive: "script-src 'self'".`
+There's a runtime error: `Uncaught EvalError: Refused to evaluate a string as JavaScript because 'unsafe-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'self'".`
 
 The error does not appear if the react-axe library is not loaded.
